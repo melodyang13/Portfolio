@@ -26,7 +26,7 @@ const About = () => {
             </div>
           
           <div className='col-span-1 xl: row-span-3'>
-              <div className="grid-container">
+              <div className="grid-container flex flex-col items-center">
                   <img src="assets/grid2.png" alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain'/>
                   <div>
                     <p className='grid-headtext'> Tech Stack</p>
@@ -55,11 +55,11 @@ const About = () => {
               </div>
             </div>
           </div>
-        <div className='col-span-1 xl:row-span-3'>
+        <div className='col-span-2 xl:row-span-3'>
           <div className="grid-container">
               <img src="assets/grid3.png" alt='grid-3' className='w-full sm:h-[266px] h-fit object-contain'/>
               <div>
-                <p className='grid-headtext'> My passion for Coding</p>
+                <p className='grid-headtext'> My passion for Desing and Coding</p>
                 <p className='grid-subtext'> I love solving problems and building things through code. coding isn't just my profession it is my passion</p>
               </div>
           </div>

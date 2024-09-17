@@ -16,17 +16,18 @@ const About = () => {
         <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 gtidl-cols-1 gap-5 h-full'>
             <div className='col-span-1 xl:row-span-3'>
                 <div className="grid-container">
-                    <img src="/assets/grid1.png" alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain'/>
-                </div>
-                <div>
+                    <img src="assets/grid1.png" alt='grid-1' className='w-full sm:h-[276px] h-fit object-contain'/>
+                    <div>
                   <p className='grid-headtext'> Hi, I'm Melody</p>
                   <p className='grid-subtext'>with 3 years of experience, I have honed my skills in UI/UX Design and FrontEnd Development</p>
                 </div>
+                </div>
+                
             </div>
           
           <div className='col-span-1 xl: row-span-3'>
               <div className="grid-container">
-                  <img src="/assets/grid2.png" alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain'/>
+                  <img src="assets/grid2.png" alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain'/>
                   <div>
                     <p className='grid-headtext'> Tech Stack</p>
                     <p className='grid-subtext'> I  specialize in Javascript/ React with a focus on React ecosystems</p>
@@ -56,7 +57,7 @@ const About = () => {
           </div>
         <div className='col-span-1 xl:row-span-3'>
           <div className="grid-container">
-              <img src="/assets/grid3.png" alt='grid-3' className='w-full sm:h-[266px] h-fit object-contain'/>
+              <img src="assets/grid3.png" alt='grid-3' className='w-full sm:h-[266px] h-fit object-contain'/>
               <div>
                 <p className='grid-headtext'> My passion for Coding</p>
                 <p className='grid-subtext'> I love solving problems and building things through code. coding isn't just my profession it is my passion</p>
@@ -65,7 +66,7 @@ const About = () => {
         </div> 
         <div className='col-span-1 xl:row-span-2'>
           <div className='grid-container'>
-              <img src="/assets/grid4.png" alt='grid-4' className='w-full sm:h-[276px] md:h-[126px] h-fit object-cover sm:object-top'/>
+              <img src="assets/grid4.png" alt='grid-4' className='w-full sm:h-[276px] md:h-[126px] h-fit object-cover sm:object-top'/>
               <div className='space-y-2'>
                 <p className='grid-subtext text-center'> Contact me</p>
                 <div className='copy-container' onClick={handleCopy}>

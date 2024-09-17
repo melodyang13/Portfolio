@@ -2,7 +2,7 @@ import React from 'react';
 import { Float, useGLTF } from '@react-three/drei';
 
 const ReactLogo = (props) => {
-  const { nodes, materials } = useGLTF('./models/react.glb');
+  const { nodes, materials } = useGLTF('models/react.glb');
 
   return (
     <Float floatIntensity={1}>

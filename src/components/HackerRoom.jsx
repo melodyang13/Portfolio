@@ -10,7 +10,7 @@ const HackerRoom =(props)=> {
   useEffect(()=>{
     console.log('hackerRoom useEffect triggered')
   }, []);
-  const { nodes, materials } = useGLTF('/models/hacker-room.glb');
+  const { nodes, materials } = useGLTF('models/hacker-room.glb');
 
   const monitortxt = useTexture('textures/desk/monitor.png');
   const screenTxt = useTexture('textures/desk/screen.png');
@@ -40,6 +40,6 @@ const HackerRoom =(props)=> {
     </group>
   );
 }
-useGLTF.preload('/models/hacker-room.glb');
+useGLTF.preload('models/hacker-room.glb');
 export default HackerRoom;
 

@@ -12,7 +12,7 @@ const About = () => {
     )
   }
   return (
-    <section className='c-space my-20'>
+    <section className='c-space py-20' id='about'>
         <div className='grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 gtidl-cols-1 gap-5 h-full'>
             <div className='col-span-1 xl:row-span-3'>
                 <div className="grid-container">
@@ -30,7 +30,7 @@ const About = () => {
                   <img src="assets/grid2.png" alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain'/>
                   <div>
                     <p className='grid-headtext'> Tech Stack</p>
-                    <p className='grid-subtext'>I have experience in these technologies and looking to focus more on React ecosystems</p>
+                    <p className='grid-subtext'>I have experience in these technologies and I am looking to focus more on React ecosystems</p>
                   </div>
               </div>
           </div>

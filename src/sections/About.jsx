@@ -27,7 +27,7 @@ const About = () => {
           
           <div className='col-span-1 xl:row-span-3'>
               <div className="grid-container flex flex-col items-center">
-                  <img src="assets/grid2.png" alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain'/>
+                  <img src="assets/grid2.png" alt='grid-2' className='w-full sm:h-[276px] h-fit object-contain'/>
                   <div>
                     <p className='grid-headtext'> Tech Stack</p>
                     <p className='grid-subtext'>I have experience in these technologies and I am looking to focus more on React ecosystems</p>
@@ -55,7 +55,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        <div className='col-span-2 xl:row-span-3'>
+        <div className=' col-span-1 xl:col-span-2 xl:row-span-3'>
           <div className="grid-container">
               <img src="assets/grid3.png" alt='grid-3' className='w-full sm:h-[266px] h-fit object-contain'/>
               <div>

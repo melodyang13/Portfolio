@@ -30,7 +30,7 @@ const Contact = () => {
         console.log(form);
     }
   return (
-    <section className='c-space my-20' id='contact'>
+    <section className='c-space py-20' id='contact'>
         <div className='relative min-h-screen flex items-center justify-center flex-col'>
         <img src='assets/terminal.png' alt='terminal' className=' absolute inset-0 min-h-screen '/>
         <div className='contact-container'>

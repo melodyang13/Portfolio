@@ -14,9 +14,9 @@ Welcome to the repository for my personal portfolio website! This portfolio show
 - **Version Control:** Git
 - **Hosting:** GitHub
 
-##🎨 Credits
+## 🎨 Credits
 Special thanks to [link](https://github.com/adrianhajdin) for their helpful tutorials that guided me in creating the website and as well taught me the basics of Three.js and GSAP
 Checkout JavaScriptMastery:  [link](https://www.youtube.com/@javascriptmastery). 
 
-##📧 Contact
+## 📧 Contact
 If you’d like to get in touch, feel free to email me at melodyang13@gmail.com

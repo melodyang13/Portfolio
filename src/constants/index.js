@@ -32,7 +32,7 @@ export const navLinks = [
       desc: 'PWA | Front End Developer and UI/UX Designer',
       subdesc:
         'A Progressive Web Application for Classifying Microscopic Skin Cancer Images using YOLOv8 , developed using MERN Stack ',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      href: '/currentlyunavailable.html',  // TODO: add link
       texture: 'textures/project/project1.mp4',
       logo: 'assets/project-logo1.png',
       logoStyle: {
@@ -55,17 +55,17 @@ export const navLinks = [
         {
           id: 3,
           name: 'Node.js',
-          path: 'assets/typescript.png',
+          path: 'assets/node.svg',
         },
         {
           id: 4,
           name: 'MonogoDB',
-          path: 'assets/framer.png',
+          path: 'assets/mongo.svg',
         },
         {
           id: 5,
           name: 'Big Three',
-          path: 'assets/framer.png',
+          path: 'assets/bigthree.svg',
         },
       ],
     },
@@ -74,7 +74,7 @@ export const navLinks = [
       desc: 'Video Streaming Website | Front End Developer',
       subdesc:
         'Made use of Figma to design the interface and used HTML, CSS , and JS to create the front-end module',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      href: 'https://melodyang13.github.io/phHits', //TODO: add link
       texture: 'textures/project/project2.mp4',
       logo: 'assets/project-logo2.png',
       logoStyle: {
@@ -84,25 +84,31 @@ export const navLinks = [
       },
       spotlight: 'assets/spotlight2.png',
       tags: [
+       
         {
           id: 1,
-          name: 'React.js',
-          path: 'assets/react.svg',
+          name: 'Node.js',
+          path: 'assets/node.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Big Three',
+          path: 'assets/bigthree.svg',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: 'assets/typescript.png',
+          name: 'PHP',
+          path: 'assets/php.svg',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: 'assets/framer.png',
+          name: 'MySQL',
+          path: 'assets/sql.svg',
+        },
+        {
+          id: 5,
+          name: 'Figma',
+          path: 'assets/figma.svg',
         },
       ],
     },
@@ -111,37 +117,47 @@ export const navLinks = [
       desc: 'Java Application | Developer and UI Designer',
       subdesc:
         'A multi-player spelling game, where the player with the longest word wins ',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://github.com/melodyang13/wordygame',
       texture: 'textures/project/project3.mp4',
       logo: 'assets/project-logo3.png',
       logoStyle: {
-        backgroundColor: '#60f5a1',
+        backgroundColor: '#0d0149',
         background:
-          'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-        border: '0.2px solid rgba(208, 213, 221, 1)',
+          'linear-gradient(0deg, #0d0149, #3f307b), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        border: '0.2px solid #3f307b',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
       spotlight: 'assets/spotlight3.png',
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: 'assets/react.svg',
+          name: 'Java',
+          path: 'assets/java.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Python',
+          path: 'assets/python.svg',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: 'assets/typescript.png',
+          name: 'SQL',
+          path: 'assets/sql.svg',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: 'assets/framer.png',
+          name: 'WAMP',
+          path: 'assets/wamp.png',
+        },
+        {
+          id: 5,
+          name: 'Figma',
+          path: 'assets/figma.svg',
+        },
+        {
+          id: 6,
+          name: 'Canva',
+          path: 'assets/canva.svg',
         },
       ],
     },
@@ -162,32 +178,22 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: 'assets/react.svg',
+          name: 'Java',
+          path: 'assets/java.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: 'assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: 'assets/framer.png',
+          name: 'Figma',
+          path: 'assets/figma.svg',
         },
       ],
     },
     {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+      title: 'SLU SAMCIS Organizations',
+      desc: 'Website| Web Developer and UI UX Designer',
       subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        'Website that details about the school organizations available in SLU SAMCIS, Used HTML and CSS to create a visually appealing and user-friendly interface.',
+      href: 'https://melodyang13.github.io/sluorgs/',
       texture: 'textures/project/project5.mp4',
       logo: 'assets/project-logo5.png',
       logoStyle: {
@@ -199,23 +205,13 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: 'assets/react.svg',
+          name: 'Big Three',
+          path: 'assets/bigthree.svg',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: 'assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: 'assets/framer.png',
+          name: 'Figma',
+          path: 'assets/figma.svg',
         },
       ],
     },
